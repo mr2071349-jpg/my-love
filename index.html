@@ -10,6 +10,27 @@
   <style>
     .fixed.top-4.left-4, .fixed.top-6.left-6, .absolute.top-4.left-4, .absolute.top-6.left-6 { display: none !important; }
   </style>
+  <script>
+    // Universal link interceptor to prevent file:///C:/template ERR_FILE_NOT_FOUND
+    document.addEventListener('click', function(e) {
+      var anchor = e.target.closest('a');
+      if (anchor) {
+        var href = anchor.getAttribute('href') || anchor.getAttribute('to');
+        if (href && (href.startsWith('/template') || href.startsWith('template') || href.startsWith('/s/'))) {
+          if (window.location.protocol === 'file:') {
+            e.preventDefault();
+            e.stopPropagation();
+            try {
+              history.pushState({}, '', href);
+              window.dispatchEvent(new Event('popstate'));
+            } catch(err) {
+              console.log('Navigation intercepted:', href);
+            }
+          }
+        }
+      }
+    }, true);
+  </script>
 </head>
 <body>
   <div id="root"></div>
