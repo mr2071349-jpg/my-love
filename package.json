@@ -1,0 +1,9 @@
+{
+  "name": "lovearea-main-website",
+  "version": "1.0.0",
+  "description": "Standalone Main Website for LoveArea",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

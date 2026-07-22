@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100" width="400" height="100">
+    <!-- String line -->
+    <path d="M10,20 Q200,60 390,20" fill="none" stroke="#64748b" stroke-width="2" stroke-dasharray="4 2"/>
+    <!-- Pennants -->
+    <polygon points="30,22 60,25 45,70" fill="#ff4d6d"/>
+    <polygon points="70,26 100,29 85,75" fill="#ffb703"/>
+    <polygon points="110,30 140,32 125,78" fill="#4ea8de"/>
+    <polygon points="150,33 180,34 165,80" fill="#70e000"/>
+    <polygon points="190,34 220,34 205,80" fill="#ff006e"/>
+    <polygon points="230,33 260,32 245,78" fill="#ffb703"/>
+    <polygon points="270,30 300,28 285,75" fill="#9d4edd"/>
+    <polygon points="310,26 340,23 325,70" fill="#ff4d6d"/>
+    <polygon points="350,22 380,18 365,65" fill="#4ea8de"/>
+  </svg>

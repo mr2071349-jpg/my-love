@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 200" width="150" height="200">
+    <!-- Strings -->
+    <path d="M50,110 Q40,150 75,190" fill="none" stroke="#cbd5e1" stroke-width="2"/>
+    <path d="M75,100 Q80,140 75,190" fill="none" stroke="#cbd5e1" stroke-width="2"/>
+    <path d="M100,110 Q110,150 75,190" fill="none" stroke="#cbd5e1" stroke-width="2"/>
+    <!-- Balloons -->
+    <!-- Heart Balloon Left -->
+    <path d="M50,45 C35,20 10,35 30,60 L50,80 L70,60 C90,35 65,20 50,45 Z" fill="#ff4d6d"/>
+    <polygon points="47,80 53,80 50,85" fill="#ff4d6d"/>
+    <!-- Round Balloon Center -->
+    <ellipse cx="75" cy="50" rx="30" ry="36" fill="#ffb703"/>
+    <polygon points="72,86 78,86 75,91" fill="#ffb703"/>
+    <!-- Round Balloon Right -->
+    <ellipse cx="105" cy="60" rx="26" ry="32" fill="#70e000"/>
+    <polygon points="102,92 108,92 105,97" fill="#70e000"/>
+  </svg>

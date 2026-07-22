@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+    <ellipse cx="80" cy="140" rx="55" ry="12" fill="rgba(0,0,0,0.15)"/>
+    <!-- Box Body -->
+    <rect x="35" y="70" width="90" height="65" rx="6" fill="#ff4d6d"/>
+    <rect x="35" y="70" width="45" height="65" fill="#e63946"/>
+    <!-- Ribbon Vertical -->
+    <rect x="70" y="70" width="20" height="65" fill="#ffb703"/>
+    <!-- Lid -->
+    <rect x="28" y="55" width="104" height="20" rx="4" fill="#ff758f"/>
+    <rect x="28" y="55" width="52" height="20" fill="#ff4d6d"/>
+    <rect x="70" y="55" width="20" height="20" fill="#ffb703"/>
+    <!-- Bow -->
+    <path d="M80,55 C60,25 40,40 70,55 Z" fill="#ffb703"/>
+    <path d="M80,55 C100,25 120,40 90,55 Z" fill="#ffb703"/>
+    <circle cx="80" cy="55" r="8" fill="#fb8500"/>
+  </svg>
